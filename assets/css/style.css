@@ -210,15 +210,16 @@ img { max-width: 100%; height: auto; display: block; }
 .section-dark-green {
   background: #243d3a;
   color: var(--white);
-  padding: 80px 0;
+  padding: 40px 0 60px;
 }
 .dark-green-grid {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 0;
 }
 .dark-green-left {
-  flex: 0 0 41.66%;
+  flex: 0 0 29.16%;
+  padding: 0 40px;
 }
 .dark-green-left h2 {
   font-size: 26px;
@@ -237,15 +238,19 @@ img { max-width: 100%; height: auto; display: block; }
 .section-dark-blue {
   background: #242b3d;
   color: var(--white);
-  padding: 80px 0;
+  padding: 40px 0 60px;
 }
 .pastor-grid {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 0;
 }
 .pastor-image {
-  flex: 0 0 45%;
+  flex: 0 0 70.84%;
+}
+.pastor-info {
+  flex: 0 0 29.16%;
+  padding: 0 40px;
 }
 .pastor-image img {
   width: 100%;
@@ -262,13 +267,30 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .pastor-info p {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 2;
+  text-align: justify;
   color: rgba(255,255,255,0.85);
+}
+.pastor-buttons {
+  margin-top: 32px;
+}
+.btn-pastor {
+  display: block;
+  padding: 8px 20px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 30px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+.btn-pastor:hover {
+  background: rgba(255,255,255,0.1);
 }
 
 /* Calling section */
 .section-calling {
-  padding: 80px 0;
+  padding: 54px 0 27px;
   text-align: center;
 }
 .section-calling h2 {
@@ -279,11 +301,12 @@ img { max-width: 100%; height: auto; display: block; }
 .section-calling p {
   font-size: 16px;
   line-height: 2;
-  color: #444;
+  color: rgb(150, 150, 150);
 }
 .section-calling .cross-img {
-  width: 60px;
-  margin: 30px auto;
+  width: 34px;
+  height: 27px;
+  margin: 0 auto 20px;
 }
 
 /* Mission section */
@@ -324,7 +347,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Newsletter section */
 .section-newsletter {
-  padding: 60px 0;
+  padding: 57px 0 27px;
   text-align: center;
 }
 .section-newsletter h3 {
@@ -468,9 +491,10 @@ img { max-width: 100%; height: auto; display: block; }
   .intro-grid { flex-direction: column; }
   .intro-left { flex: none; width: 100%; padding-right: 0; }
   .dark-green-grid { flex-direction: column; }
-  .dark-green-left { flex: none; width: 100%; }
-  .pastor-grid { flex-direction: column; }
+  .dark-green-left { flex: none; width: 100%; padding: 0; }
+  .pastor-grid { flex-direction: column-reverse; }
   .pastor-image { flex: none; width: 100%; }
+  .pastor-info { flex: none; width: 100%; padding: 0; }
   .mission-grid { flex-direction: column; }
   .info-inner { padding: 0 20px; }
   .footer-inner { flex-direction: column; gap: 10px; text-align: center; padding: 0 20px; }

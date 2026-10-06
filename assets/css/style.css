@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css');
 
 *, *::before, *::after {
@@ -10,7 +11,7 @@
   --accent: #9f6f28;
   --black: #000000;
   --white: #ffffff;
-  --font-main: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-main: 'Caudex', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Gothic', Meiryo, sans-serif;
   --header-height: 112px;
   --inside-width: 1440px;
 }
@@ -157,7 +158,7 @@ img { max-width: 100%; height: auto; display: block; }
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
-  transition: opacity 2s ease;
+  transition: opacity 0.7s ease;
 }
 .hero-slider .slide.active { opacity: 1; }
 

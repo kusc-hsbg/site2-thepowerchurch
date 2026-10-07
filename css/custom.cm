@@ -1,4 +1,4 @@
-@import url("../vendor-cdn.imweb.me/css/SourceHanSerifKR-Regular.css");@import url("../vendor-cdn.imweb.me/css/caudex.css");@import url('../fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url("../vendor-cdn.imweb.me/css/SourceHanSerifKR-Regular.css");@import url("../vendor-cdn.imweb.me/css/caudex.css");@import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
 :root {
 	--unit-style-one_page: N;
 	--unit-style-footer_unused: N;
@@ -3301,37 +3301,6 @@
             .doz_sys div[doz_type="text"] h6, .doz_sys h6, .doz_sys .header-content h6 {
                 font-size : 16px;
             }
-                    body.doz_sys.new_header_site:not(.shop_cart) {
-                overflow-x: hidden;
-                overflow-x: clip;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .modal-dialog {
-                margin-top: 0;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .modal-content {
-                background: transparent;
-                border: 0;
-                box-shadow: none;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .header_wrap {
-                position: static;
-                padding: 10px 0;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .shop-content {
-                background: #fff;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .goods_payment .opt_block {
-                padding: 10px 20px;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .goods_wrapper {
-                padding-bottom: 0;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .product_body {
-                margin-bottom: 80px;
-            }
-            .doz_sys .modal_prod_detail_from_shopping_list .modal_site_alert .modal-dialog .modal-content {
-                background: #fff;
-            }
                     .modal_mypage_coupon_use_list,
             .mypage #couopn_list .table-wrap.coupon{
                 font-size: 16px!important;
@@ -4710,16 +4679,7 @@
         .modal_alert_responsive .btn.confirm:hover {
             border-color: #9f6f28;
         }
-                #doz_header .navbar-logo img,
-        .owl-carousel .owl-item .item,
-        .item_gallary .img_wrap,
-        .widget.image_map img {
-            image-rendering: auto !important;
-        }
-                        .modal_prod_detail.review .modal-header:before {
-            width: 100% !important;
-        }
-                @media all and (max-width : 991px) {
+                        @media all and (max-width : 991px) {
                     .custom_nav .owl-controls .owl-nav > div:before {
                 font-size: 16px;
             }
@@ -4791,24 +4751,6 @@
                 color: #363636 !important;
             }
         }
-                @media (min-width: 768px) {
-            .new_header_overlay .fixed_transform {
-                -webkit-transition-property: none !important;
-                -webkit-transition-duration: 0.3s !important;
-                transition-property: none !important;
-            }
-            .new_header_overlay .scroll-to-fixed-fixed .fixed_transform,
-            .new_header_overlay .scroll-to-fixed-fixed .normal_logo {
-                -webkit-transition-property: none !important;
-                -webkit-transition-duration: 0.3s !important;
-                transition-property: none !important;
-            }
-        }
-        .fr-view a[href^=tel] {
-            text-decoration:inherit;
-            color: inherit;
-            font-size: inherit !important;
-        }
                 @media all and (max-width : 768px) {
             .shop_mypage .modal_alert_responsive .modal-footer .btn.cancel:hover{
                 border: 1px solid #363636            }
@@ -4834,14 +4776,7 @@
             .list_review_inner .txt_wrap > div.text-14 > .text-13 {
                 font-size: 0.9em !important;
             }
-                            .modal_add_review .modal-header,
-            .modal_add_review .modal-footer {
-                position: relative !important;
-            }
-            .modal_add_review .modal-body {
-                padding: 24px !important;
-            }
-                    .goods_form .goods_summary p,
+                            .goods_form .goods_summary p,
             .goods_form .goods_summary span {
                 font-size: 16px !important;
             }

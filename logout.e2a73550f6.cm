@@ -1,0 +1,30 @@
+<meta http-equiv="refresh" content="0;url=46/index.b23ab663de.html">
+<script>
+	if (typeof window.sessionStorage !== 'undefined') {
+		window.sessionStorage.removeItem('oms_token');
+		window.sessionStorage.removeItem('imweb:freeShipNotify:orderAlarmShown');
+	}
+	window.localStorage.removeItem('oms_token');
+	if(localStorage.getItem('IS_AUTO_LOGOUT') == 'Y') {
+		alert("고객님의 안전한 사이트 이용을 위해 로그인 후 약 "+ localStorage.getItem('AUTO_LOGOUT_TIME') +"분 동안 서비스 이용이 없어 자동 로그아웃 되었습니다.");
+	}
+</script>
+
+<!-- BrandScope 관련 코드 -->
+<script>
+	// brandscope.js의 사용을 위해 필요한 변수를 전역으로 등록함
+	window.SITE_CODE = 'S20221018abc929584eb94';
+	window.TEST_SERVER = Boolean('');
+	window.UNIT_CODE = 'u20221018634deb5fb7d52';
+    if (typeof window.sessionStorage !== 'undefined') {
+        window.sessionStorage.removeItem('imweb_site_auth_token');
+    }
+</script>
+<script src="js/brandscope.js"></script>
+<script>
+	if(window.BrandScope !== undefined) {
+		window.BrandScope.sessionResetByLogout();
+	}
+</script>
+<!-- BrandScope 관련 코드 end -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"524ef7101ac04ec2a3a017fef4a32df5","r":1,"spa":2}' anonymous"></script>

@@ -1,2 +1,2 @@
-import "./app-B5eqaoyb.js";
+import "./app-BKxAWTLC.js";
 //# sourceMappingURL=app.js.map

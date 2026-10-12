@@ -83,7 +83,7 @@ window.IMWEB_SHOP_FREE_SHIP_NOTIFY_SDK = (function () {
         if (registeredMagnetShell) {
             patchMagnetShell(registeredMagnetShell);
         } else {
-            import('https://static.imweb.me/design-system/magnet/magnet-shell.js')
+            import('/site2-thepowerchurch/static.imweb.me/design-system/magnet/magnet-shell.js')
                 .then(function (module) {
                     var currentMagnetShell = customElements.get('magnet-shell');
                     if (currentMagnetShell) {

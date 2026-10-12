@@ -1,4 +1,4 @@
-import { createImdog } from 'https://static.imweb.me/design-system/imdog/imdog.js';
+import { createImdog } from '/site2-thepowerchurch/static.imweb.me/design-system/imdog/imdog.js';
 
 var sessionSampleRate = (typeof SITE_CODE !== 'undefined' && typeof SESSION_SAMPLE_RATE !== 'undefined') ? SESSION_SAMPLE_RATE : 0;
 

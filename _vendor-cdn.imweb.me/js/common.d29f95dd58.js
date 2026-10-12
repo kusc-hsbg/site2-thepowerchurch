@@ -3127,7 +3127,7 @@ var setFroala = function(selector, option, events_option){
   FroalaEditor.DefineIcon('underline', {CLASSNAME: 'fas fa-underline', template: 'custom_icon'});
   FroalaEditor.DefineIcon('strikeThrough', {CLASSNAME: 'fas fa-strikethrough', template: 'custom_icon'});
   //FroalaEditor.DefineIcon('fontSize', {CLASSNAME: 'fas fa-text-height', template: 'custom_icon'});
-  FroalaEditor.DefineIcon('fontSize', {SRC: '//static.imweb.me/vendor/images/froala/font_size_white.png', template: 'image'});
+  FroalaEditor.DefineIcon('fontSize', {SRC: '/site2-thepowerchurch/static.imweb.me/vendor/images/froala/font_size_white.png', template: 'image'});
   FroalaEditor.DefineIcon('textColor', {CLASSNAME: 'fas fa-tint', template: 'custom_icon'});
   FroalaEditor.DefineIcon('emoticons', {CLASSNAME: 'far fa-grin-alt', template: 'custom_icon'});
   FroalaEditor.DefineIcon('moreText', {CLASSNAME: 'simple icon-options', template: 'custom_icon'});
@@ -3460,7 +3460,7 @@ var setFroala = function(selector, option, events_option){
           pointerUpName = 'pointerup';
         }
         if(is_custom_mobile){
-          $('.custom-theme.fr-toolbar .fr-command.fr-btn[data-cmd="fontSize"] img').attr('src', '//static.imweb.me/vendor/images/froala/font_size_black.png');
+          $('.custom-theme.fr-toolbar .fr-command.fr-btn[data-cmd="fontSize"] img').attr('src', '/site2-thepowerchurch/static.imweb.me/vendor/images/froala/font_size_black.png');
           // 요소에 맞게 길이 조절
           var tbPadding = 10;
           var tbWidth = 0;
@@ -3576,7 +3576,7 @@ var setFroala = function(selector, option, events_option){
             $dropdown_menu.offset({left: btnOffsetLeft});
           });
         }else{
-          $('.custom-theme.fr-toolbar .fr-command.fr-btn[data-cmd="fontSize"] img').attr('src', '//static.imweb.me/vendor/images/froala/font_size_white.png');
+          $('.custom-theme.fr-toolbar .fr-command.fr-btn[data-cmd="fontSize"] img').attr('src', '/site2-thepowerchurch/static.imweb.me/vendor/images/froala/font_size_white.png');
           $fr_btn_grp.off(pointerMoveName);
           $fr_btn_grp.off('mousewheel');
           $fr_btn_grp.css('left', '');

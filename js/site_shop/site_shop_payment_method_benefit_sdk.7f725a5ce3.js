@@ -181,7 +181,7 @@ window.IMWEB_SHOP_PAYMENT_METHOD_BENEFIT_SDK = window.IMWEB_SHOP_PAYMENT_METHOD_
             _hydratePaymentMethodBenefitModuleScripts(root || document);
         } else {
             debugLog('import magnet-shell');
-            import('https://static.imweb.me/design-system/magnet/magnet-shell.js')
+            import('/site2-thepowerchurch/static.imweb.me/design-system/magnet/magnet-shell.js')
                 .then(function (module) {
                     var currentMagnetShell = customElements.get('magnet-shell');
                     if (currentMagnetShell) {

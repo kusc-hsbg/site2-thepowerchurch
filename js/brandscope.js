@@ -65,7 +65,7 @@
 	script.async = true
 	script.src = (typeof TEST_SERVER !== 'undefined' && TEST_SERVER)
 		? '//cdn-brandscope.imtest.me/bs.umd.js'
-		: '//static.imweb.me/brand-scope/bs.umd.js';
+		: '/site2-thepowerchurch/static.imweb.me/brand-scope/bs.umd.js';
 	
 	// TEST_SERVER 환경에서만 SDK track 함수 래핑
 	if (typeof TEST_SERVER !== 'undefined' && TEST_SERVER) {
